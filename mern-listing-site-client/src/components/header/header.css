@@ -1,0 +1,188 @@
+
+
+/*......................................................fix upon resizing*/
+.h-container {
+  background-color: #001e28;
+  padding: 10px 15px;
+  background-image: url('../../assets/hero.png');
+  background-size: 100%;
+  background-position-y: 100%;
+  border-bottom: #b8b8b8 solid 5px;
+}
+
+.h-row:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 50vh;
+}
+
+/*................................................PayapaPH header*/
+.h-row:first-child .h-col:first-child a {
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 65px;
+  text-decoration: none;
+}
+
+/*.................................................header buttons*/
+.h-row:first-child .h-col:last-child button {
+  padding: 2px 15px;
+  margin: 0 10px;
+  border: none;
+  background-color: #ffffff;
+  letter-spacing: 1.3px;
+  cursor: pointer;
+}
+
+/*.....................................................links row*/
+.h-row:first-child .h-col:last-child button:active {
+  transform: translateY(-2px);
+}
+
+.h-row:last-child {
+  margin-top: 50px; /*........................................test expand*/
+}
+
+.h-row:last-child .h-col .icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*.......................................................icon in box inactive*/
+.h-row:last-child .h-col .icons .icon {
+  color: #fff;
+  
+  /*should i add color to this?*/
+
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+/*.....................................................active elements in boxes*/
+.h-row:last-child .h-col .icons .icon:hover {
+  color: #ff7f50;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+/*............................................link in box inactive*/
+.h-row:last-child .h-col .icons .icon a {
+  margin:  10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/*.....................................................active links in boxes*/
+
+.h-row:last-child .h-col .icons .icon:hover a {
+  color: #ff7f50;
+  
+}
+
+.h-row:last-child .h-col:first-child {
+  margin-bottom: 60px;
+}
+
+.h-row:last-child .h-col:first-child.smallHeader {
+  margin-bottom: 10px;
+}
+
+/*.................................................subtitle h1*/
+.h-row:last-child .h-col:nth-child(2) h1 {
+    text-align: center;
+  font-size: 31px;
+  color: #ffffff;
+}
+
+/*.................................................subtitle h2*/
+
+.h-row:last-child .h-col:nth-child(2) h2 {
+  letter-spacing: 1.3px;
+    text-align: center;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.h-row:last-child .h-col:nth-child(3) {
+  margin-top: 70px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/*.....................................................search bar*/
+
+.h-row:last-child .h-col .search {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  border: 3px solid #b8b8b8;
+  background-color: #ffffff;
+  border-radius: 5px;
+  top: -15px;
+  width: 40%;
+}
+
+.h-row:last-child .h-col .search .search-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 16px;
+  /* border-right: 3px solid #b8b8b8; */
+}
+
+.h-row:last-child .h-col .search .search-item:last-child {
+  border-right: none;
+}
+
+/*........................................search icons*/
+.h-row:last-child .h-col .search .search-item svg {
+  margin-right: 7px;
+  color: #b8b8b8;
+}
+
+/*...........................................................searchbar input*/
+.h-row:last-child .h-col .search .search-item input {
+  height: 50px;
+  border: none;
+  outline: none;
+  letter-spacing: 1.3px;
+  color: #5F4228;
+  text-transform: lowercase;
+  /* text-transform: capitalize; */
+
+}
+
+/*...........................................................searchbar default text*/
+.h-row:last-child .h-col .search .search-item input::placeholder {
+  color: #b8b8b8;
+}
+
+/* .h-row:last-child .h-col .search .search-item span {
+  letter-spacing: 1.3px;
+  color: #b8b8b8; */
+
+
+
+/*.................................................................button search*/
+.h-row:last-child .h-col .search button.btnSearch {
+  padding: 10px 100px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  cursor: pointer;
+  background-color: #ff8113;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.5s;
+}
+
+.h-row:last-child .h-col .search button.btnSearch:hover {
+  background-color: #5F4228;
+}

@@ -1,0 +1,38 @@
+.footer {
+  padding: 7%;
+
+}
+.footerRow:last-child {
+    padding: 5px 0;
+    border-top: 1px solid #5F4228;
+
+}
+
+.copyrights {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+}
+
+.footerRow:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerRow:first-child ul {
+    list-style: none;
+}
+
+.footerRow:first-child ul li {
+    margin-bottom: 10px;
+}
+
+.footerRow:first-child ul li a {
+    color: #5F4228;
+    text-decoration: none;
+    letter-spacing: 1.3px;
+}
+
+.footerRow:first-child ul li a:hover {
+    text-decoration: underline;
+}

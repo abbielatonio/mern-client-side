@@ -1,0 +1,81 @@
+.practitionersContainer {
+  padding: 50px 10px;
+}
+
+.practitionersRow {
+  display: flex;
+}
+
+.practitionersRow .practitionersCol:first-child {
+  flex: 1;
+}
+
+.practitionersRow .practitionersCol:last-child {
+  flex: 3;
+}
+
+/*......................................................listpractitioners*/
+.listPractitioners {
+  padding: 0 25px;
+}
+
+/*................................................................search*/
+.searchItem {
+  margin-bottom: 15px;
+}
+
+.searchPractitioners {
+  position: sticky;
+  background-color: #FBC78D;
+  height: max-content;
+  padding: 10px 5px;
+  border-radius: 9px;
+}
+
+.searchItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchItem span {
+  font-size: 13px;
+  color: #ffffff;
+  padding: 5px;
+  letter-spacing: 1.3px;
+}
+
+.searchItem input {
+  height: 40px;
+  padding: 0 20px;
+  color: #001e28;
+}
+
+.searchItem label:nth-child(2) {
+  height: 40px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #001e28;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.searchItem .btnSearch {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  cursor: pointer;
+  background-color: #ff8113;
+  color: #ffffff;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.5s;
+}
+
+.searchItem .btnSearch:hover {
+  background-color: #5F4228;
+}
+
+.searchItem:nth-child(2) {
+  position: relative;
+}
