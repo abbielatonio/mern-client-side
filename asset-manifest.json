@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mern-client-side/static/css/main.d8b92956.css",
+    "main.js": "/mern-client-side/static/js/main.c9e0f8d7.js",
+    "static/media/hero.png": "/mern-client-side/static/media/hero.74697affd6c86001736a.png",
+    "static/media/payapalogo.png": "/mern-client-side/static/media/payapalogo.aaa8877f26dae990e1ae.png",
+    "index.html": "/mern-client-side/index.html",
+    "main.d8b92956.css.map": "/mern-client-side/static/css/main.d8b92956.css.map",
+    "main.c9e0f8d7.js.map": "/mern-client-side/static/js/main.c9e0f8d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8b92956.css",
+    "static/js/main.c9e0f8d7.js"
+  ]
+}
