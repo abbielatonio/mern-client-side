@@ -19,7 +19,7 @@ console.log(data);
                 <>
         <div className="cityImage">
           <div className="cityImg">
-            <img src="https://iili.io/H32QarG.md.png" />
+            <img src="https://i.imgur.com/zMLf8b0.png" />
           </div>
           <h4 className="cityImgTitle">Yoga</h4>
           <span className="cityImgPractitioners">{data[0]} practitioners</span>
@@ -27,7 +27,7 @@ console.log(data);
 
         <div className="cityImage">
           <div className="cityImg">
-            <img src="https://iili.io/H32sm9p.md.png" />
+            <img src="https://i.imgur.com/lIiVivc.png" />
           </div>
           <h4 className="cityImgTitle">Meditation</h4>
           <span className="cityImgPractitioners">{data[1]} practitioners</span>
@@ -35,7 +35,7 @@ console.log(data);
 
         <div className="cityImage">
           <div className="cityImg">
-            <img src="https://iili.io/H32ie7p.md.png" />
+            <img src="https://i.imgur.com/2vgygNe.png" />
           </div>
           <h4 className="cityImgTitle">Fitness</h4>
           <span className="cityImgPractitioners">{data[2]} practitioners</span>
@@ -43,7 +43,7 @@ console.log(data);
 
         <div className="cityImage">
           <div className="cityImg">
-            <img src="https://iili.io/H32iFXn.md.png" />
+            <img src="https://i.imgur.com/v0SHbjw.png" />
           </div>
           <h4 className="cityImgTitle">Cognitive Behavior Therapy</h4>
           <span className="cityImgPractitioners">{data[3]} practitioners</span>
@@ -51,7 +51,7 @@ console.log(data);
 
         <div className="cityImage">
           <div className="cityImg">
-            <img src="https://iili.io/H32ZDSj.md.png" />
+            <img src="https://i.imgur.com/IHv0ErT.png" />
           </div>
           <h4 className="cityImgTitle">Psychiatry</h4>
           <span className="cityImgPractitioners">{data[4]} practitioners</span>
