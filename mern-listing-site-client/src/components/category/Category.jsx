@@ -10,9 +10,9 @@ function Category() {
   //console.log(data);
 
   const images = [
-    "https://iili.io/Hdpj8Be.md.png",
-      "https://iili.io/Hdpjh74.md.png",
-      "https://iili.io/HdpjOIS.md.png",
+    "https://i.imgur.com/gOSGhSx.png",
+      "https://i.imgur.com/FbXn9Lc.png",
+      "https://i.imgur.com/sv0UUNh.png",
  
   ];
 
