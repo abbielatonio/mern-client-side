@@ -20,7 +20,7 @@ console.log(data);
                 <>
         <div className="cityImage">
           <div className="cityImg">
-            <img src="https://iili.io/H3dipxn.md.png" />
+            <img src="https://i.imgur.com/UFFXx4V.png" />
           </div>
      <h4 className="cityImgTitle">Manila</h4>
           <span className="cityImgPractitioners">{data[0]} practitioners</span>
@@ -28,7 +28,7 @@ console.log(data);
 
         <div className="cityImage">
           <div className="cityImg">
-            <img src="https://iili.io/H3dLkj1.md.png" />
+            <img src="https://i.imgur.com/8s2PA8F.png" />
           </div>
           <h4 className="cityImgTitle">Makati</h4>
           <span className="cityImgPractitioners">{data[1]} practitioners</span>
@@ -36,7 +36,7 @@ console.log(data);
 
         <div className="cityImage">
           <div className="cityImg">
-            <img src="https://iili.io/H3dgAJ9.md.png" />
+            <img src="https://i.imgur.com/Om5HKcF.png" />
           </div>
           <h4 className="cityImgTitle">Paranaque</h4>
           <span className="cityImgPractitioners">{data[2]} practitioners</span>
@@ -44,7 +44,7 @@ console.log(data);
 
         <div className="cityImage">
           <div className="cityImg">
-            <img src="https://iili.io/H3dQE9p.md.png" />
+            <img src="https://i.imgur.com/wKwGp4F.png" />
           </div>
           <h4 className="cityImgTitle">Bulacan</h4>
           <span className="cityImgPractitioners">{data[3]} practitioners</span>
@@ -52,7 +52,7 @@ console.log(data);
 
         <div className="cityImage">
           <div className="cityImg">
-            <img src="https://iili.io/H3dLvZF.md.png" />
+            <img src="https://i.imgur.com/HbsEeXu.png" />
           </div>
           <h4 className="cityImgTitle">Alabang</h4>
           <span className="cityImgPractitioners">{data[4]} practitioners</span>
